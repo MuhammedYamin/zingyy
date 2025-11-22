@@ -19,7 +19,6 @@ const App = () => {
   const [isBlurred, setIsBlurred] = useState(false);
   const cherryTopRef = useRef();
   const cherryBottomRef = useRef();
-
   const [menuOpen, setMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   useEffect(() => {
@@ -187,6 +186,7 @@ const App = () => {
             src={isWhite ? "/logowhite.png" : "/logo.png"}
             alt="Logo"
             className="logo"
+            onClick={() => window.location.reload()}
           />
         </div>
 

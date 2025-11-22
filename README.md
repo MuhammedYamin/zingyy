@@ -2,7 +2,7 @@
 
 ## How to Run the Project Locally
 ### Clone the repository
-git clone <repo-link>
+git clone <https://github.com/MuhammedYamin/zingyy.git>
 
 ### Install dependencies
 npm install
